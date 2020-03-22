@@ -24,6 +24,11 @@
   .headline-primary {
     color: $color-primary;
     margin-left: 10px;
+   
+    @include desktop {
+      font-size: 46px;
+    }
+
   }
   
   .headline-secondary {
